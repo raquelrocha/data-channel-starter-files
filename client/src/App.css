@@ -6,6 +6,32 @@
   height: 40vmin;
   pointer-events: none;
 }
+.healthBar {
+  position: relative;
+  width: 100%;
+  border: 1px solid #efefef;
+}
+.realHealth {
+  background-color: green;
+}
+
+.fullgray
+{
+   filter: grayscale(100%);
+   -webkit-filter: grayscale(100%);
+}
+
+.avggray
+{
+   filter: grayscale(50%);
+   -webkit-filter: grayscale(50%);
+}
+
+.fullcolor
+{
+   filter: grayscale(100%);
+   -webkit-filter: grayscale(100%);
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
